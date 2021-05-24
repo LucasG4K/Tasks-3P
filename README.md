@@ -1,6 +1,6 @@
                                         Primeira tarefa:
 
-    Definir um método diferente do apresentado em 'main.cpp', que tenha menor custo computacional e que possibilite encontrar o maior e menor número em nosso vetor com 'n' elementos.
+**Definir um método diferente do apresentado em 'main.cpp', que tenha menor custo computacional e que possibilite encontrar o maior e menor número em nosso vetor com 'n' elementos.**
 
 Inicialmente: consumo computacional -> f(n) = 2(n − 1)
 
