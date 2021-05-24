@@ -1,9 +1,13 @@
-    Primeira tarefa:
+                                        Primeira tarefa:
 
-Definir um método diferente do apresentado em 1.cpp, tendo menor custo computacional e que possibilite encontrar o maior e menor número dentre os dados.
+Definir um método diferente do apresentado em '1.cpp', tendo menor custo computacional e que possibilite encontrar o maior e menor número dentre os dados.
 
-[x] Tentativa de fazer a busca dos elementos a partir de N / 2 (descartado nos momentos inicias visto que teria maior consumo computacional)
+Inicialmente: consumo computacional -> f(n) = 2(n − 1)
 
-[x] Tentativa de ordenar o vetor (+ consumo computacional {N^2})
+**Tentativas para encontrar melhores resultados:**
+
+[x] ~~Busca dos elementos a partir de n / 2 (descartado nos momentos inicias visto que teria maior consumo computacional)~~
+
+[x] ~~Ordenar o vetor (+ consumo computacional {n^2})~~
 
 [x] 
