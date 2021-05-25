@@ -10,7 +10,7 @@ Inicialmente: custo computacional -> f(n) = 2(n − 1)
 
 [x] ~~V1 - Ordenar o vetor (+ consumo computacional {n^2} )~~
 
-[✓] V2 - Utilizar um laço de repetição com if & else, semelhante ao arquivo original 'main.cpp', porém analisando o mínimo e máximo com apenas um if (- consumo computacional { f(n) = n - 1} )
+[✓] V2 - Utilizar um laço de repetição com if & else, semelhante ao arquivo original 'main.cpp', porém analisando o mínimo e máximo com apenas um if (- consumo computacional { algo entre f(n) = n - 1 e f(n) = 2(n - 1) -> **f(n) = n - 1 < X < f(n) = 2(n - 1)**} )
 
 **Sobre o resultado**
 
