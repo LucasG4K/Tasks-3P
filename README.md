@@ -10,8 +10,8 @@ Inicialmente: custo computacional -> f(n) = 2(n − 1)
 
 [x] ~~V1 - Ordenar o vetor (+ consumo computacional {n^2} )~~
 
-[✓] V2 - Utilizar um laço de repetição com if & else, semelhante ao arquivo original 'main.cpp', porém analisando o mínimo e máximo com apenas um if (- consumo computacional { algo entre f(n) = n - 1 e f(n) = 2(n - 1) -> **f(n) = n - 1 < X < f(n) = 2(n - 1)**} )
+[✓] V2 - Utilizar um laço de repetição com if & else, semelhante ao arquivo original 'main.cpp', porém analisando o mínimo e máximo com apenas um if (- consumo computacional { estimando -> **f(n) = n - 1 < 'mainV2' < f(n) = 2(n - 1)**} )
 
 **Sobre o resultado**
 
-Utilizando antes 2 if's, tínhamos uma dupla análise para cada posição no vetor de 'n' elementos, sendo uma dessas análises para o maior número e outra para o menor e essas eram realizadas sempre durante todo o loop. Isso nos trazia a uma função f(n) = 2(n - 1). Agora em V2, utilizando 1 if e 1 else, a análise feita é reduzida de forma em que só é feita uma segunda verificação em caso de não correspondência ao if inicial. Dessa forma, há uma tendência em diminuir o custo computacional visto que muitas vezes não passaremos por uma segunda verificação do vetor, que antes era necessária.
+Utilizando antes 2 if's, tínhamos uma dupla análise para cada posição no vetor de 'n' elementos, sendo uma dessas análises para o maior número e outra para o menor e essas eram realizadas sempre durante todo o loop. Isso nos trazia a uma função f(n) = 2(n - 1). Agora em mainV2, utilizando 1 if e 1 else, a análise feita é reduzida de forma em que só é feita uma segunda verificação em caso de não correspondência ao if inicial. Dessa forma, há uma tendência em diminuir o custo computacional visto que muitas vezes não passaremos por uma segunda verificação do vetor, que antes era necessária.
